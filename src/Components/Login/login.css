@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #30acff, #3067ff);
+    /* color: #fff; */
+    padding-top: 100px;
+}
+
+.box {
+    width: 980px;
+    height: 600px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+}
+
+.form {
+    width: 45%;
+    padding: 60px 30px;
+}
+.form h3 {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 80px;
+}
+.form form {
+    display: grid;
+    /* background-color: aquamarine; */
+    margin-top: 30px;
+}
+.form form .email, .form form .pass {
+    font-size: 12px;
+    padding: 5px 0;
+    width: 100%;
+    display: block;
+}
+.form form .input-email, .form form .input-pass {
+    padding: 5px;
+    border: 1px solid #a7a7a7;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+}
+.form form .reset {
+    display: flex;
+    justify-content: space-between;
+}
+.form form .reset a{
+    text-decoration: none;
+    color: #9b30ff;
+}
+.form .button-ingresar {
+    margin: 40px auto 20px;
+    padding: 5px 30px;
+    background-color: #3067ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* PRESETS */
+.font-12 {
+    font-size: 12px;
+}
